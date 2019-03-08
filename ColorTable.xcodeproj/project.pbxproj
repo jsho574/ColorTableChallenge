@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3CD4BE332232BC4B00BBB090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4BE322232BC4B00BBB090 /* AppDelegate.swift */; };
-		3CD4BE352232BC4B00BBB090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4BE342232BC4B00BBB090 /* ViewController.swift */; };
 		3CD4BE382232BC4B00BBB090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4BE362232BC4B00BBB090 /* Main.storyboard */; };
 		3CD4BE3A2232BC4B00BBB090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4BE392232BC4B00BBB090 /* Assets.xcassets */; };
 		3CD4BE3D2232BC4B00BBB090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4BE3B2232BC4B00BBB090 /* LaunchScreen.storyboard */; };
 		3CD4BE482232BC4B00BBB090 /* ColorTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4BE472232BC4B00BBB090 /* ColorTableTests.swift */; };
 		3CD4BE532232BC4B00BBB090 /* ColorTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4BE522232BC4B00BBB090 /* ColorTableUITests.swift */; };
+		3CD4BE612232BE4300BBB090 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4BE602232BE4300BBB090 /* ColorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3CD4BE2F2232BC4B00BBB090 /* ColorTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD4BE322232BC4B00BBB090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CD4BE342232BC4B00BBB090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CD4BE372232BC4B00BBB090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CD4BE392232BC4B00BBB090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CD4BE3C2232BC4B00BBB090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3CD4BE4E2232BC4B00BBB090 /* ColorTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD4BE522232BC4B00BBB090 /* ColorTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableUITests.swift; sourceTree = "<group>"; };
 		3CD4BE542232BC4B00BBB090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD4BE602232BE4300BBB090 /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3CD4BE322232BC4B00BBB090 /* AppDelegate.swift */,
-				3CD4BE342232BC4B00BBB090 /* ViewController.swift */,
 				3CD4BE362232BC4B00BBB090 /* Main.storyboard */,
 				3CD4BE392232BC4B00BBB090 /* Assets.xcassets */,
 				3CD4BE3B2232BC4B00BBB090 /* LaunchScreen.storyboard */,
 				3CD4BE3E2232BC4B00BBB090 /* Info.plist */,
+				3CD4BE602232BE4300BBB090 /* ColorTableViewController.swift */,
 			);
 			path = ColorTable;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CD4BE352232BC4B00BBB090 /* ViewController.swift in Sources */,
 				3CD4BE332232BC4B00BBB090 /* AppDelegate.swift in Sources */,
+				3CD4BE612232BE4300BBB090 /* ColorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
