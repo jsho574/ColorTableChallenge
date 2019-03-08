@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3CD4BE322232BC4B00BBB090 /* AppDelegate.swift */,
+				3CD4BE602232BE4300BBB090 /* ColorTableViewController.swift */,
 				3CD4BE362232BC4B00BBB090 /* Main.storyboard */,
 				3CD4BE392232BC4B00BBB090 /* Assets.xcassets */,
 				3CD4BE3B2232BC4B00BBB090 /* LaunchScreen.storyboard */,
 				3CD4BE3E2232BC4B00BBB090 /* Info.plist */,
-				3CD4BE602232BE4300BBB090 /* ColorTableViewController.swift */,
 			);
 			path = ColorTable;
 			sourceTree = "<group>";
